@@ -1,23 +1,20 @@
 package mcskyscape.com.playerjoinmessage;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class PlayerJoinMessage extends JavaPlugin {
-
     //Event listener class.
-    public class playerjoinmessage extends JavaPlugin implements Listener {
-        @Override
-        public void onEnable() {
-            //Setup event listener
-            getServer().getPluginManager().registerEvents(new MyListener(), this);
-            System.out.println("Player Join message plugin");
-        }
+public class PlayerJoinMessage extends JavaPlugin implements Listener {
+    @Override
+    public void onEnable() {
+        //Setup event listener
+        getServer().getPluginManager().registerEvents(new MyListener(), this);
+        System.out.println("Player Join message plugin");
     }
+}
 
     final class MyListener implements Listener {
         @EventHandler
@@ -30,4 +27,3 @@ public final class PlayerJoinMessage extends JavaPlugin {
             }
         }
     }
-}
