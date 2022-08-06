@@ -1,0 +1,7 @@
+name: PluginTest
+version: '1.9.1'
+main: mc.dnb.plugintest.PluginTest
+api-version: 1.19
+authors: [ Bailey, Dom ]
+description: Tester plugin
+website: mc.dtownshend.com
