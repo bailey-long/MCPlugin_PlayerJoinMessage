@@ -1,0 +1,7 @@
+name: PlayerJoinMessage
+version: '1.0'
+main: mcskyscape.com.playerjoinmessage.PlayerJoinMessage
+api-version: 1.19
+authors: [ Domitron, Loopypew ]
+description: A simple plugin that welcomes the player to the server
+website: play.mcskyscape.come
